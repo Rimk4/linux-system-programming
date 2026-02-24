@@ -1,3 +1,4 @@
+```
 linux-system-programming/  
 ├── multithreading/  
 │   ├── thread_creation.c         # Базовое создание потоков (pthread)  
@@ -42,4 +43,4 @@ linux-system-programming/
     │   ├── server.c  
     │   └── client.c  
     └── monitoring_daemon.c       # Демон мониторинга системы  
-
+```
