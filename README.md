@@ -44,3 +44,8 @@ linux-system-programming/
     │   └── client.c  
     └── monitoring_daemon.c       # Демон мониторинга системы  
 ```
+
+Основные функции в C (pthread):
+- pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER; // Создание мьютекса
+- pthread_mutex_lock(&mutex); // Попытаться захватить (если занят — ждать)
+- pthread_mutex_unlock(&mutex); // Отдать
